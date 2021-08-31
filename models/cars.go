@@ -1,16 +1,7 @@
 package models
 
 type Car struct {
-	Id     int
-	Name   string
-	Rating string
-}
-
-func GetCars() []Car {
-	car := Car{}
-	cars := []Car{}
-
-	for _, search := range cars {
-
-	}
+	Id   int    `json:"id"`
+	Name string `json:"name"`
+	Desc string `json:"desc"`
 }
